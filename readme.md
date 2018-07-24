@@ -1,3 +1,3 @@
-#About#
+# About
 Track me is a simple implementation of react-leaflet.
 Just a test so far...
