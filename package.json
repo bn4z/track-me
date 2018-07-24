@@ -1,0 +1,26 @@
+{
+  "name": "trackme",
+  "version": "1.0.0",
+  "description": "Localization using react-leaflet",
+  "keywords": [
+    "open street map",
+    "gps",
+    "leaflet"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "leaflet": "1.3.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-leaflet": "2.0.0",
+    "react-scripts": "1.1.4",
+    "styled-components": "3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
