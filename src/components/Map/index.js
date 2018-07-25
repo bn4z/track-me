@@ -1,13 +1,14 @@
 import React, { Component, createRef } from "react"
 import { Map, TileLayer, Marker, Popup } from "react-leaflet"
 import styled from "styled-components"
+import settings from "../../settings.json"
 
-export default class SimpleExample extends Component {
+export default class TMMap extends Component {
   state = {
-    latlng: [51.505, -0.09],
+    latlng: settings.initialLatLng,
     // lat: 51.505,
     // lng: -0.09,
-    zoom: 13
+    zoom: settings.initialZoom
   }
 
   mapRef = createRef()
@@ -29,8 +30,6 @@ export default class SimpleExample extends Component {
   componentDidMount() {}
 
   render() {
-    console.log("render")
-    //const position = [this.state.lat, this.state.lng]
     return (
       <Map
         style={{
